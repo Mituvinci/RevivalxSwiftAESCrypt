@@ -13,6 +13,12 @@
 		16B2D3B71AFD07A8000429BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B2D3B61AFD07A8000429BA /* Images.xcassets */; };
 		16B2D3BA1AFD07A8000429BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B2D3B81AFD07A8000429BA /* LaunchScreen.xib */; };
 		16B2D3C61AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3C51AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift */; };
+		16B2D3D81AFD2D0C000429BA /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3D71AFD2D0C000429BA /* CustomObject.m */; };
+		16B2D3E51AFD2F12000429BA /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3DE1AFD2F12000429BA /* AESCrypt.m */; };
+		16B2D3E61AFD2F12000429BA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E01AFD2F12000429BA /* NSData+Base64.m */; };
+		16B2D3E71AFD2F12000429BA /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E21AFD2F12000429BA /* NSData+CommonCrypto.m */; };
+		16B2D3E81AFD2F12000429BA /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E41AFD2F12000429BA /* NSString+Base64.m */; };
+		16B2D3EA1AFD378D000429BA /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E91AFD378D000429BA /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,17 @@
 		16B2D3BF1AFD07A9000429BA /* RevivalxSwiftAESCryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevivalxSwiftAESCryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B2D3C41AFD07A9000429BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B2D3C51AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxSwiftAESCryptTests.swift; sourceTree = "<group>"; };
+		16B2D3D61AFD2D0C000429BA /* RevivalxSwiftAESCrypt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevivalxSwiftAESCrypt-Bridging-Header.h"; sourceTree = "<group>"; };
+		16B2D3D71AFD2D0C000429BA /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		16B2D3DD1AFD2F12000429BA /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AESCrypt.h; path = AESCrypt/AESCrypt.h; sourceTree = "<group>"; };
+		16B2D3DE1AFD2F12000429BA /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AESCrypt.m; path = AESCrypt/AESCrypt.m; sourceTree = "<group>"; };
+		16B2D3DF1AFD2F12000429BA /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "AESCrypt/NSData+Base64.h"; sourceTree = "<group>"; };
+		16B2D3E01AFD2F12000429BA /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "AESCrypt/NSData+Base64.m"; sourceTree = "<group>"; };
+		16B2D3E11AFD2F12000429BA /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+CommonCrypto.h"; path = "AESCrypt/NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		16B2D3E21AFD2F12000429BA /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+CommonCrypto.m"; path = "AESCrypt/NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		16B2D3E31AFD2F12000429BA /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "AESCrypt/NSString+Base64.h"; sourceTree = "<group>"; };
+		16B2D3E41AFD2F12000429BA /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "AESCrypt/NSString+Base64.m"; sourceTree = "<group>"; };
+		16B2D3E91AFD378D000429BA /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +94,16 @@
 		16B2D3AC1AFD07A8000429BA /* RevivalxSwiftAESCrypt */ = {
 			isa = PBXGroup;
 			children = (
+				16B2D3DC1AFD2F07000429BA /* AESCrypt */,
 				16B2D3AF1AFD07A8000429BA /* AppDelegate.swift */,
 				16B2D3B11AFD07A8000429BA /* ViewController.swift */,
 				16B2D3B31AFD07A8000429BA /* Main.storyboard */,
 				16B2D3B61AFD07A8000429BA /* Images.xcassets */,
 				16B2D3B81AFD07A8000429BA /* LaunchScreen.xib */,
 				16B2D3AD1AFD07A8000429BA /* Supporting Files */,
+				16B2D3D71AFD2D0C000429BA /* CustomObject.m */,
+				16B2D3D61AFD2D0C000429BA /* RevivalxSwiftAESCrypt-Bridging-Header.h */,
+				16B2D3E91AFD378D000429BA /* Main.swift */,
 			);
 			path = RevivalxSwiftAESCrypt;
 			sourceTree = "<group>";
@@ -110,6 +131,21 @@
 				16B2D3C41AFD07A9000429BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16B2D3DC1AFD2F07000429BA /* AESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3DD1AFD2F12000429BA /* AESCrypt.h */,
+				16B2D3DE1AFD2F12000429BA /* AESCrypt.m */,
+				16B2D3DF1AFD2F12000429BA /* NSData+Base64.h */,
+				16B2D3E01AFD2F12000429BA /* NSData+Base64.m */,
+				16B2D3E11AFD2F12000429BA /* NSData+CommonCrypto.h */,
+				16B2D3E21AFD2F12000429BA /* NSData+CommonCrypto.m */,
+				16B2D3E31AFD2F12000429BA /* NSString+Base64.h */,
+				16B2D3E41AFD2F12000429BA /* NSString+Base64.m */,
+			);
+			name = AESCrypt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +248,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B2D3E51AFD2F12000429BA /* AESCrypt.m in Sources */,
 				16B2D3B21AFD07A8000429BA /* ViewController.swift in Sources */,
+				16B2D3EA1AFD378D000429BA /* Main.swift in Sources */,
+				16B2D3E71AFD2F12000429BA /* NSData+CommonCrypto.m in Sources */,
+				16B2D3E61AFD2F12000429BA /* NSData+Base64.m in Sources */,
+				16B2D3D81AFD2D0C000429BA /* CustomObject.m in Sources */,
 				16B2D3B01AFD07A8000429BA /* AppDelegate.swift in Sources */,
+				16B2D3E81AFD2F12000429BA /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +382,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RevivalxSwiftAESCrypt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RevivalxSwiftAESCrypt/RevivalxSwiftAESCrypt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +395,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RevivalxSwiftAESCrypt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RevivalxSwiftAESCrypt/RevivalxSwiftAESCrypt-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +456,7 @@
 				16B2D3CB1AFD07A9000429BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B2D3CC1AFD07A9000429BA /* Build configuration list for PBXNativeTarget "RevivalxSwiftAESCryptTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +465,7 @@
 				16B2D3CE1AFD07A9000429BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
