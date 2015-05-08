@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B2D3B01AFD07A8000429BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3AF1AFD07A8000429BA /* AppDelegate.swift */; };
+		16B2D3B21AFD07A8000429BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3B11AFD07A8000429BA /* ViewController.swift */; };
+		16B2D3B51AFD07A8000429BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B2D3B31AFD07A8000429BA /* Main.storyboard */; };
+		16B2D3B71AFD07A8000429BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B2D3B61AFD07A8000429BA /* Images.xcassets */; };
+		16B2D3BA1AFD07A8000429BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B2D3B81AFD07A8000429BA /* LaunchScreen.xib */; };
+		16B2D3C61AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3C51AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B2D3C01AFD07A9000429BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16B2D3A21AFD07A8000429BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B2D3A91AFD07A8000429BA;
+			remoteInfo = RevivalxSwiftAESCrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B2D3AA1AFD07A8000429BA /* RevivalxSwiftAESCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevivalxSwiftAESCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B2D3AE1AFD07A8000429BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B2D3AF1AFD07A8000429BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16B2D3B11AFD07A8000429BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16B2D3B41AFD07A8000429BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16B2D3B61AFD07A8000429BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16B2D3B91AFD07A8000429BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		16B2D3BF1AFD07A9000429BA /* RevivalxSwiftAESCryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevivalxSwiftAESCryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B2D3C41AFD07A9000429BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B2D3C51AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxSwiftAESCryptTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B2D3A71AFD07A8000429BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B2D3BC1AFD07A9000429BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B2D3A11AFD07A8000429BA = {
+			isa = PBXGroup;
+			children = (
+				16B2D3AC1AFD07A8000429BA /* RevivalxSwiftAESCrypt */,
+				16B2D3C21AFD07A9000429BA /* RevivalxSwiftAESCryptTests */,
+				16B2D3AB1AFD07A8000429BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16B2D3AB1AFD07A8000429BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3AA1AFD07A8000429BA /* RevivalxSwiftAESCrypt.app */,
+				16B2D3BF1AFD07A9000429BA /* RevivalxSwiftAESCryptTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16B2D3AC1AFD07A8000429BA /* RevivalxSwiftAESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3AF1AFD07A8000429BA /* AppDelegate.swift */,
+				16B2D3B11AFD07A8000429BA /* ViewController.swift */,
+				16B2D3B31AFD07A8000429BA /* Main.storyboard */,
+				16B2D3B61AFD07A8000429BA /* Images.xcassets */,
+				16B2D3B81AFD07A8000429BA /* LaunchScreen.xib */,
+				16B2D3AD1AFD07A8000429BA /* Supporting Files */,
+			);
+			path = RevivalxSwiftAESCrypt;
+			sourceTree = "<group>";
+		};
+		16B2D3AD1AFD07A8000429BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3AE1AFD07A8000429BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16B2D3C21AFD07A9000429BA /* RevivalxSwiftAESCryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3C51AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift */,
+				16B2D3C31AFD07A9000429BA /* Supporting Files */,
+			);
+			path = RevivalxSwiftAESCryptTests;
+			sourceTree = "<group>";
+		};
+		16B2D3C31AFD07A9000429BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3C41AFD07A9000429BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16B2D3A91AFD07A8000429BA /* RevivalxSwiftAESCrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B2D3C91AFD07A9000429BA /* Build configuration list for PBXNativeTarget "RevivalxSwiftAESCrypt" */;
+			buildPhases = (
+				16B2D3A61AFD07A8000429BA /* Sources */,
+				16B2D3A71AFD07A8000429BA /* Frameworks */,
+				16B2D3A81AFD07A8000429BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevivalxSwiftAESCrypt;
+			productName = RevivalxSwiftAESCrypt;
+			productReference = 16B2D3AA1AFD07A8000429BA /* RevivalxSwiftAESCrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16B2D3BE1AFD07A9000429BA /* RevivalxSwiftAESCryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B2D3CC1AFD07A9000429BA /* Build configuration list for PBXNativeTarget "RevivalxSwiftAESCryptTests" */;
+			buildPhases = (
+				16B2D3BB1AFD07A9000429BA /* Sources */,
+				16B2D3BC1AFD07A9000429BA /* Frameworks */,
+				16B2D3BD1AFD07A9000429BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B2D3C11AFD07A9000429BA /* PBXTargetDependency */,
+			);
+			name = RevivalxSwiftAESCryptTests;
+			productName = RevivalxSwiftAESCryptTests;
+			productReference = 16B2D3BF1AFD07A9000429BA /* RevivalxSwiftAESCryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16B2D3A21AFD07A8000429BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nurdin Norazan Services";
+				TargetAttributes = {
+					16B2D3A91AFD07A8000429BA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					16B2D3BE1AFD07A9000429BA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 16B2D3A91AFD07A8000429BA;
+					};
+				};
+			};
+			buildConfigurationList = 16B2D3A51AFD07A8000429BA /* Build configuration list for PBXProject "RevivalxSwiftAESCrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16B2D3A11AFD07A8000429BA;
+			productRefGroup = 16B2D3AB1AFD07A8000429BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16B2D3A91AFD07A8000429BA /* RevivalxSwiftAESCrypt */,
+				16B2D3BE1AFD07A9000429BA /* RevivalxSwiftAESCryptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B2D3A81AFD07A8000429BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B2D3B51AFD07A8000429BA /* Main.storyboard in Resources */,
+				16B2D3BA1AFD07A8000429BA /* LaunchScreen.xib in Resources */,
+				16B2D3B71AFD07A8000429BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B2D3BD1AFD07A9000429BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B2D3A61AFD07A8000429BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B2D3B21AFD07A8000429BA /* ViewController.swift in Sources */,
+				16B2D3B01AFD07A8000429BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B2D3BB1AFD07A9000429BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B2D3C61AFD07A9000429BA /* RevivalxSwiftAESCryptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16B2D3C11AFD07A9000429BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B2D3A91AFD07A8000429BA /* RevivalxSwiftAESCrypt */;
+			targetProxy = 16B2D3C01AFD07A9000429BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16B2D3B31AFD07A8000429BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B2D3B41AFD07A8000429BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16B2D3B81AFD07A8000429BA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B2D3B91AFD07A8000429BA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16B2D3C71AFD07A9000429BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16B2D3C81AFD07A9000429BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16B2D3CA1AFD07A9000429BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RevivalxSwiftAESCrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16B2D3CB1AFD07A9000429BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RevivalxSwiftAESCrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16B2D3CD1AFD07A9000429BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RevivalxSwiftAESCryptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevivalxSwiftAESCrypt.app/RevivalxSwiftAESCrypt";
+			};
+			name = Debug;
+		};
+		16B2D3CE1AFD07A9000429BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RevivalxSwiftAESCryptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevivalxSwiftAESCrypt.app/RevivalxSwiftAESCrypt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B2D3A51AFD07A8000429BA /* Build configuration list for PBXProject "RevivalxSwiftAESCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B2D3C71AFD07A9000429BA /* Debug */,
+				16B2D3C81AFD07A9000429BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B2D3C91AFD07A9000429BA /* Build configuration list for PBXNativeTarget "RevivalxSwiftAESCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B2D3CA1AFD07A9000429BA /* Debug */,
+				16B2D3CB1AFD07A9000429BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16B2D3CC1AFD07A9000429BA /* Build configuration list for PBXNativeTarget "RevivalxSwiftAESCryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B2D3CD1AFD07A9000429BA /* Debug */,
+				16B2D3CE1AFD07A9000429BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16B2D3A21AFD07A8000429BA /* Project object */;
+}
