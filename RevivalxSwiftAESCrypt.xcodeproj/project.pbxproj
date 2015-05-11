@@ -18,7 +18,8 @@
 		16B2D3E61AFD2F12000429BA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E01AFD2F12000429BA /* NSData+Base64.m */; };
 		16B2D3E71AFD2F12000429BA /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E21AFD2F12000429BA /* NSData+CommonCrypto.m */; };
 		16B2D3E81AFD2F12000429BA /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E41AFD2F12000429BA /* NSString+Base64.m */; };
-		16B2D3EA1AFD378D000429BA /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3E91AFD378D000429BA /* Main.swift */; };
+		16B2D3EF1AFF3423000429BA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2D3EE1AFF3423000429BA /* Message.swift */; };
+		16B2D3F41AFF364D000429BA /* rsz_swift-og.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2D3F31AFF364D000429BA /* rsz_swift-og.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 		16B2D3E21AFD2F12000429BA /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+CommonCrypto.m"; path = "AESCrypt/NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		16B2D3E31AFD2F12000429BA /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "AESCrypt/NSString+Base64.h"; sourceTree = "<group>"; };
 		16B2D3E41AFD2F12000429BA /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "AESCrypt/NSString+Base64.m"; sourceTree = "<group>"; };
-		16B2D3E91AFD378D000429BA /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		16B2D3EE1AFF3423000429BA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Model/Message.swift; sourceTree = "<group>"; };
+		16B2D3F31AFF364D000429BA /* rsz_swift-og.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_swift-og.png"; path = "Images/rsz_swift-og.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,8 @@
 		16B2D3AC1AFD07A8000429BA /* RevivalxSwiftAESCrypt */ = {
 			isa = PBXGroup;
 			children = (
+				16B2D3F21AFF3637000429BA /* Images */,
+				16B2D3ED1AFF33C8000429BA /* Model */,
 				16B2D3DC1AFD2F07000429BA /* AESCrypt */,
 				16B2D3AF1AFD07A8000429BA /* AppDelegate.swift */,
 				16B2D3B11AFD07A8000429BA /* ViewController.swift */,
@@ -103,7 +107,6 @@
 				16B2D3AD1AFD07A8000429BA /* Supporting Files */,
 				16B2D3D71AFD2D0C000429BA /* CustomObject.m */,
 				16B2D3D61AFD2D0C000429BA /* RevivalxSwiftAESCrypt-Bridging-Header.h */,
-				16B2D3E91AFD378D000429BA /* Main.swift */,
 			);
 			path = RevivalxSwiftAESCrypt;
 			sourceTree = "<group>";
@@ -146,6 +149,22 @@
 				16B2D3E41AFD2F12000429BA /* NSString+Base64.m */,
 			);
 			name = AESCrypt;
+			sourceTree = "<group>";
+		};
+		16B2D3ED1AFF33C8000429BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3EE1AFF3423000429BA /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		16B2D3F21AFF3637000429BA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				16B2D3F31AFF364D000429BA /* rsz_swift-og.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B2D3B51AFD07A8000429BA /* Main.storyboard in Resources */,
+				16B2D3F41AFF364D000429BA /* rsz_swift-og.png in Resources */,
 				16B2D3BA1AFD07A8000429BA /* LaunchScreen.xib in Resources */,
 				16B2D3B71AFD07A8000429BA /* Images.xcassets in Resources */,
 			);
@@ -250,10 +270,10 @@
 			files = (
 				16B2D3E51AFD2F12000429BA /* AESCrypt.m in Sources */,
 				16B2D3B21AFD07A8000429BA /* ViewController.swift in Sources */,
-				16B2D3EA1AFD378D000429BA /* Main.swift in Sources */,
 				16B2D3E71AFD2F12000429BA /* NSData+CommonCrypto.m in Sources */,
 				16B2D3E61AFD2F12000429BA /* NSData+Base64.m in Sources */,
 				16B2D3D81AFD2D0C000429BA /* CustomObject.m in Sources */,
+				16B2D3EF1AFF3423000429BA /* Message.swift in Sources */,
 				16B2D3B01AFD07A8000429BA /* AppDelegate.swift in Sources */,
 				16B2D3E81AFD2F12000429BA /* NSString+Base64.m in Sources */,
 			);
